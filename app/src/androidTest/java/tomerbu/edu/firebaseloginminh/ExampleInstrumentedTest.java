@@ -1,4 +1,4 @@
-package tomerbu.edu.firebaselogin;
+package tomerbu.edu.firebaseloginminh;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

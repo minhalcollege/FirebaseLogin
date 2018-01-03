@@ -1,35 +1,35 @@
 {
   "project_info": {
-    "project_number": "153745806291",
-    "firebase_url": "https://fir-login-9dc27.firebaseio.com",
-    "project_id": "fir-login-9dc27",
-    "storage_bucket": "fir-login-9dc27.appspot.com"
+    "project_number": "306911657356",
+    "firebase_url": "https://fir-loginminhal.firebaseio.com",
+    "project_id": "fir-loginminhal",
+    "storage_bucket": "fir-loginminhal.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:153745806291:android:a5cb8219e4f8e230",
+        "mobilesdk_app_id": "1:306911657356:android:52d4686f3525e2aa",
         "android_client_info": {
-          "package_name": "tomerbu.edu.firebaselogin"
+          "package_name": "tomerbu.edu.firebaseloginminh"
         }
       },
       "oauth_client": [
         {
-          "client_id": "153745806291-hifoq674ohbk2seq7viduoeu0eeslfi7.apps.googleusercontent.com",
+          "client_id": "306911657356-m8nbfhlfj18if456tsh3sb9ri0lbe6ul.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "tomerbu.edu.firebaselogin",
+            "package_name": "tomerbu.edu.firebaseloginminh",
             "certificate_hash": "8ff017bdfec2af9e8813dbd27c41b7f9b951da17"
           }
         },
         {
-          "client_id": "153745806291-65m5ajjggrkgesicmovdpul40josuen0.apps.googleusercontent.com",
+          "client_id": "306911657356-4hd704bsrfgsqibr2ur1ommv2hvj83lt.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB02iue3MEWNyVVesf3wrKytl4_ZBVunQs"
+          "current_key": "AIzaSyDrjGD-9nVcnp_SSNziGhpWepYPEhE5h-s"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "153745806291-65m5ajjggrkgesicmovdpul40josuen0.apps.googleusercontent.com",
+              "client_id": "306911657356-4hd704bsrfgsqibr2ur1ommv2hvj83lt.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -1,4 +1,4 @@
-package tomerbu.edu.firebaselogin;
+package tomerbu.edu.firebaseloginminh;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -24,8 +24,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        addAuthStateListener();
+        addAuthStateListener(); //TODO: Add this to main
     }
+
+    /**
+     * implementation 'com.firebaseui:firebase-ui-auth:3.1.2'
+     * implementation 'com.google.firebase:firebase-core:11.6.2'
+     */
     private void addAuthStateListener() {
         //Add Listener for login State
         //Check if the user is logged in: else -> gotoLogin
@@ -33,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         FirebaseAuth.getInstance().addAuthStateListener(new FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-                if (firebaseAuth.getCurrentUser() == null){
+                if (firebaseAuth.getCurrentUser() == null) {
                     gotoLogin();
                 }
             }
@@ -51,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 new AuthUI.IdpConfig.Builder(AuthUI.GOOGLE_PROVIDER).build()
         );
         //Intent -> for login screen
-        Intent loginIntent =  AuthUI.getInstance()
+        Intent loginIntent = AuthUI.getInstance()
                 .createSignInIntentBuilder()
                 .setLogo(R.drawable.login_logo)
                 .setAvailableProviders(loginProviders)

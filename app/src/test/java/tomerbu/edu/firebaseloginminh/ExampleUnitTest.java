@@ -1,4 +1,4 @@
-package tomerbu.edu.firebaselogin;
+package tomerbu.edu.firebaseloginminh;
 
 import org.junit.Test;
 
