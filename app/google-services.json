@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "153745806291",
+    "firebase_url": "https://fir-login-9dc27.firebaseio.com",
+    "project_id": "fir-login-9dc27",
+    "storage_bucket": "fir-login-9dc27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153745806291:android:a5cb8219e4f8e230",
+        "android_client_info": {
+          "package_name": "tomerbu.edu.firebaselogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153745806291-hifoq674ohbk2seq7viduoeu0eeslfi7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tomerbu.edu.firebaselogin",
+            "certificate_hash": "8ff017bdfec2af9e8813dbd27c41b7f9b951da17"
+          }
+        },
+        {
+          "client_id": "153745806291-65m5ajjggrkgesicmovdpul40josuen0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB02iue3MEWNyVVesf3wrKytl4_ZBVunQs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153745806291-65m5ajjggrkgesicmovdpul40josuen0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
